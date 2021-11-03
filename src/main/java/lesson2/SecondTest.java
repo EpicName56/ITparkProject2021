@@ -1,6 +1,6 @@
 package lesson2;
 
-public class Test {
+public class SecondTest {
 
     public static void main(String[] args) {
         System.out.println("Привет, мир!");
