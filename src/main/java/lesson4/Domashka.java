@@ -12,6 +12,7 @@ public class Domashka {
                 a += 2;
                 value += 1;
             }
+
             System.out.println(value);
         }
     }
