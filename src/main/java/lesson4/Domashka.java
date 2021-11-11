@@ -10,9 +10,9 @@ public class Domashka {
             while (a <= result) {
                 result -= a;
                 a += 2;
-                result += 1;
+                value += 1;
             }
-            System.out.println(result);
+            System.out.println(value);
         }
     }
 }
