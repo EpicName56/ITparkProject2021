@@ -1,19 +1,13 @@
 package lesson4;
 
 public class Domashka {
+    public static int Sqrt(int a) {
+        int root = 1;
+        while (root * root <= a) root++;
+        return --root;
+    }
 
     public static void main(String[] args) {
-        {
-            int value = 0;
-            int a = 1;
-            int result = 225;
-            while (a <= result) {
-                result -= a;
-                a += 2;
-                value += 1;
-            }
-
-            System.out.println(value);
-        }
+        System.out.println(Sqrt(255));
     }
 }
