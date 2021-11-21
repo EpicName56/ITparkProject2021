@@ -3,6 +3,7 @@ package lesson6;
 import java.util.Scanner;
 
 public class Domashka {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt(); // необходима для ввода пользователем значения в консоль

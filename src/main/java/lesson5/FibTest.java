@@ -3,6 +3,7 @@ package lesson5;
 import java.util.Scanner;
 
 public class FibTest {
+
     public static void main(String[] args) {
         int[] arr = new int[6]; // ввод верхнего числа для расчета
         arr[0] = 0;
