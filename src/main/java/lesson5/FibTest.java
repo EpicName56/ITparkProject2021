@@ -3,20 +3,16 @@ package lesson5;
 import java.util.Scanner;
 
 public class FibTest {
-
     public static void main(String[] args) {
-        int n = 11;
-        int a = 1, b = 1;
-
-        System.out.println(a + " " + b);
-        int fib = 2, i = 2;
-        while (i < n) {
-            fib = a + b;
-            a = b;
-            b = fib;
-
-            System.out.println(" " + fib);
-            i++;
+        int[] arr = new int[6]; // ввод верхнего числа для расчета
+        arr[0] = 0;
+        arr[1] = 1;
+        for (int i = 2; i < arr.length; ++i) {
+            arr[i] = arr[i - 1] + arr[i - 2];
+            System.out.println();
+        }
+        for (int i = 0; i < arr.length; ++i) {
+            System.out.println(arr[i]);
         }
     }
 }
