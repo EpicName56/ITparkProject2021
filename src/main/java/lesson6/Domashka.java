@@ -6,7 +6,8 @@ public class Domashka {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt(); // необходима для ввода пользователем значения в консоль
+        System.out.println("Введите номер числа для расчета");
+        int n = scanner.nextInt();
         int[] fib = new int[n];
         fib[0] = 0;
         fib[1] = 1;
@@ -16,5 +17,6 @@ public class Domashka {
         for (int i = 0; i < fib.length; ++i) {
             System.out.println(fib[i]);
         }
+        System.out.println("Расчет окончен");
     }
 }
