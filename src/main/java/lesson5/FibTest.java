@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class FibTest {
 
     public static void main(String[] args) {
-        int[] arr = new int[6]; // ввод верхнего числа для расчета
+        int[] arr = new int[6]; // ввод верхнего номера числа для расчета
         arr[0] = 0;
         arr[1] = 1;
         for (int i = 2; i < arr.length; ++i) {
