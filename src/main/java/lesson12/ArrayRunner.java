@@ -10,9 +10,9 @@ public class ArrayRunner {
                 {"4", "5", "6", "7"}
         };
 
-        ArraysValue arraysSum = new ArraysValue(array);
+        ArraysValue arraysAmount = new ArraysValue(array);
         try {
-            System.out.println(arraysSum.sum());
+            System.out.println(arraysAmount.sum());
         } catch (MyArraySizeExeption e) {
             System.out.println(e.getMessage());
         } catch (MyArrayDataException exception) {
