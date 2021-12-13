@@ -13,7 +13,7 @@ public class ArrayRunner {
         ArraysValue arraysAmount = new ArraysValue(array);
         try {
             System.out.println(arraysAmount.sum());
-        } catch (MyArraySizeExeption e) {
+        } catch (MyArraySizeException e) {
             System.out.println(e.getMessage());
         } catch (MyArrayDataException exception) {
             System.out.println(exception.getMessage());

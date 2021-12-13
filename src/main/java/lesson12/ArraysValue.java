@@ -4,11 +4,11 @@ public class ArraysValue {
     public String[][] array;
 
     private void checkArray() {
-        if (array.length != 4) throw new MyArraySizeExeption("Ошибка, массивов не четыре, а " + array.length);
+        if (array.length != 4) throw new MyArraySizeException("Ошибка, массивов не четыре, а " + array.length);
 
         for (int i = 0; i < 4; i++) {
             if (array[i].length != 4) {
-                throw new MyArraySizeExeption("Ошибка, в массиве " + i +
+                throw new MyArraySizeException("Ошибка, в массиве " + i +
                         " не четыре значения, а " + array[i].length);
             }
         }
