@@ -13,7 +13,7 @@ public class Main {
 
         for (int i = 0; i <= numbers; i++) {
             String workerName = "Сотрудник №" + i;
-            int occupationalLife = (int) Math.round(Math.random() * 10) + 1;
+            int occupationalLife = (int) Math.round(Math.random() * 7) + 1;
             int employeeID = i + 1;
             employee.add(new Employee(workerName, employeeID, occupationalLife));
         }
