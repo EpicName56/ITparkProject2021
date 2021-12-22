@@ -40,16 +40,6 @@ class Record implements Serializable, Cloneable {
         return true;
     }
 
-    @Override
-    public int hashCode() {
-        int hash = 9;
-        hash = 61 * hash + (int) (this.id ^ (this.id >>> 32));
-        hash = 61 * hash + (this.phone != null ? this.phone.hashCode() : 0);
-        hash = 61 * hash + (this.name != null ? this.name.hashCode() : 0);
-        hash = 61 * hash + (this.location != null ? this.location.hashCode() : 0);
-        return hash;
-    }
-
     public Object clone() throws CloneNotSupportedException {
         return super.clone();
     }
