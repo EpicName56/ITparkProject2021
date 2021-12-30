@@ -30,6 +30,5 @@ public class Logger {
         this.logLevel = logLevel;
         this.logFile = logFile;
         this.message = message;
-
     }
 }
